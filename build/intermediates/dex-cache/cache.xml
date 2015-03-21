@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndriodProject\CreateDatabase\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\AndriodProject\CreateDatabase\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-ba3606afa56e88c6b54e80fbaaf78c012ff08cd3.jar" />
+    </item>
+    <item
+        jar="C:\AndriodProject\CreateDatabase\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\AndriodProject\CreateDatabase\app\build\intermediates\pre-dexed\debug\classes-87513cb54cf96749b3fbed6dc590ae550181515b.jar" />
+    </item>
+    <item
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\AndriodProject\CreateDatabase\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cde0fe43c1d155a84c58787d13ed53f1de001e61.jar" />
+    </item>
+    <item
+        jar="C:\AndriodProject\CreateDatabase\app\libs\jdom-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9f6909efb7121532c8dd5c2797ed35a5dddc120d">
+        <dex dex="C:\AndriodProject\CreateDatabase\app\build\intermediates\pre-dexed\debug\jdom-2.0.3-0ea13a39d04bf2810585033c2894e5e376ac5afb.jar" />
+    </item>
+
+</items>

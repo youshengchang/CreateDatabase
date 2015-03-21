@@ -59,6 +59,8 @@ public class MainActivity extends ListActivity {
 		ArrayAdapter<Tour> adapter = new ArrayAdapter<Tour>(this, 
 				android.R.layout.simple_list_item_1, tours);
 		setListAdapter(adapter);
+
+        Log.i(LOGTAG, "onCreate called.");
 		
 	}
 

@@ -55,6 +55,8 @@ public class MainActivity extends ListActivity {
 //        database = dbHelper.getWritableDatabase();
 
         dataSource = new ToursDataSource(this);
+        dataSource.open();
+        createData();
 
 		ArrayAdapter<Tour> adapter = new ArrayAdapter<Tour>(this, 
 				android.R.layout.simple_list_item_1, tours);
@@ -91,5 +93,36 @@ public class MainActivity extends ListActivity {
     protected void onPause() {
         super.onPause();
         dataSource.close();
+    }
+
+    private void createData(){
+
+        Log.i(LOGTAG, "createData get called.");
+
+        Tour tour = new Tour();
+        tour.setTitle("Salton Sea");
+        tour.setDescription("A tour to Salton Sea");
+        tour.setPrice(600);
+        tour.setImage("salton_sea");
+        tour = dataSource.create(tour);
+        Log.i(LOGTAG, "Tour created with id = " + tour.getId());
+
+        tour = new Tour();
+        tour.setTitle("Death Valley");
+        tour.setDescription("A tour to Death Valley");
+        tour.setPrice(900);
+        tour.setImage("death_valley");
+        tour = dataSource.create(tour);
+        Log.i(LOGTAG, "Tour created with id = " + tour.getId());
+
+        tour = new Tour();
+        tour.setTitle("San Francisco");
+        tour.setDescription("A tour to San Francisco");
+        tour.setPrice(1200);
+        tour.setImage("san_francisco");
+        tour = dataSource.create(tour);
+        Log.i(LOGTAG, "Tour created with id = " + tour.getId());
+
+
     }
 }
